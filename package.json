@@ -4,7 +4,11 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "json-server --w db.json"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/Tuvedunyel/redux-training/issues"
   },
-  "homepage": "https://github.com/Tuvedunyel/redux-training#readme"
+  "homepage": "https://github.com/Tuvedunyel/redux-training#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
+  }
 }
