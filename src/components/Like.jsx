@@ -1,9 +1,10 @@
 import React from "react";
+import clap from "./../../public/icons/clap.png";
 
 const Like = ({ post }) => {
   return (
     <div>
-      <img src="./icons/clap.png" className="clap" alt="clap" />
+      <img src={clap} alt="like this" />
       <span>{post.likes}</span>
     </div>
   );
